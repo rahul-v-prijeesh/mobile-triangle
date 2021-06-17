@@ -24,7 +24,7 @@ previous=createButton("previous")
 .mousePressed(()  => {pressed1 = true;p1=true})
 .mouseReleased(() =>{ pressed1 = false;p1=false})
 cont=createInput("control")
-cont.position(30,160)
+cont.position(30,260)
 next=createButton("next")
 .mousePressed(()  => {pressed = true;p=true})
   .mouseReleased(() => {pressed = false;p=false});
